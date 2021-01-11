@@ -9,14 +9,14 @@ class Question:
     @staticmethod
     def __answer(opts):
         for k in opts:
-            if "(answer)" in opts[k]:
+            if "_ANSWER_" in opts[k]:
                 return k
 
     @staticmethod
     def __clean_opts(opts):
         for k in opts:
-            if "(answer)" in opts[k]:
-                opts[k] = opts[k].replace("(answer)", '').strip()
+            if "_ANSWER_" in opts[k]:
+                opts[k] = opts[k].replace("_ANSWER_", '').strip()
         return opts
 
     @staticmethod

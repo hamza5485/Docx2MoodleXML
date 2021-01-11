@@ -9,6 +9,7 @@ DOCX_DIR = "docx/"
 XML_DIR = "xml/"
 MULTIPLE_CHOICE = ("A.", "B.", "C.", "D.", "E.")
 TRUE_FALSE = ("1.", "2.")
+ANSWER_MARKER = " _ANSWER_"
 
 for docx_file in os.listdir(DOCX_DIR):
     content = []
@@ -31,7 +32,7 @@ for docx_file in os.listdir(DOCX_DIR):
                         opts = p.text
                         for run in p.runs:
                             if run.bold:
-                                opts += " (answer)"
+                                opts += ANSWER_MARKER
                         content.append(opts)
 
         for i, e in enumerate(content):
