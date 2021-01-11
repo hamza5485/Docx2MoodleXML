@@ -1,0 +1,129 @@
+<quiz>
+	<question type="category">
+		<category>
+			<text>$course$/top/Template</text>
+		</category>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>TEMPLATE_01_Q_1</text>
+		</name>
+		<questiontext format="html">
+			<text>Which order brought about the death of the Jedi?</text>
+		</questiontext>
+		<answer fraction="0">
+			<text>Order 10</text>
+			<feedback>
+				<text>Your answer is incorrect.</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>Order 109</text>
+			<feedback>
+				<text>Your answer is incorrect.</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>Order -5</text>
+			<feedback>
+				<text>Your answer is incorrect.</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>Order 66</text>
+			<feedback>
+				<text>Your answer is correct.</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>None of the Above</text>
+			<feedback>
+				<text>Your answer is incorrect.</text>
+			</feedback>
+		</answer>
+		<shuffleanswers>1</shuffleanswers>
+		<single>true</single>
+		<answernumbering>none</answernumbering>
+	</question>
+	<question type="multichoice">
+		<name>
+			<text>TEMPLATE_01_Q_2</text>
+		</name>
+		<questiontext format="html">
+			<text>On which planet do we first meet Rey in The Force Awakens?</text>
+		</questiontext>
+		<answer fraction="0">
+			<text>Tatooine</text>
+			<feedback>
+				<text>Your answer is incorrect.</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>Korriban</text>
+			<feedback>
+				<text>Your answer is incorrect.</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>Jakku</text>
+			<feedback>
+				<text>Your answer is correct.</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>Naboo</text>
+			<feedback>
+				<text>Your answer is incorrect.</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>Dagobah</text>
+			<feedback>
+				<text>Your answer is incorrect.</text>
+			</feedback>
+		</answer>
+		<shuffleanswers>1</shuffleanswers>
+		<single>true</single>
+		<answernumbering>none</answernumbering>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>TEMPLATE_01_Q_3</text>
+		</name>
+		<questiontext format="html">
+			<text>Ben Solo was Kylo Ren’s real name.</text>
+		</questiontext>
+		<answer fraction="100">
+			<text>True</text>
+			<feedback>
+				<text>Your answer is correct.</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>False</text>
+			<feedback>
+				<text>Your answer is incorrect.</text>
+			</feedback>
+		</answer>
+	</question>
+	<question type="truefalse">
+		<name>
+			<text>TEMPLATE_01_Q_4</text>
+		</name>
+		<questiontext format="html">
+			<text>Jabba is Boba Fett’s father</text>
+		</questiontext>
+		<answer fraction="0">
+			<text>True</text>
+			<feedback>
+				<text>Your answer is incorrect.</text>
+			</feedback>
+		</answer>
+		<answer fraction="100">
+			<text>False</text>
+			<feedback>
+				<text>Your answer is correct.</text>
+			</feedback>
+		</answer>
+	</question>
+</quiz>
