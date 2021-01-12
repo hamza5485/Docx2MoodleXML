@@ -65,7 +65,7 @@ for docx_file in os.listdir(DOCX_DIR):
         cat_question.setAttribute("type", "category")
         category = dom.createElement("category")
         text = dom.createElement("text")
-        text.appendChild(dom.createTextNode(f"$course$/top/{name_arr[0]}"))
+        text.appendChild(dom.createTextNode(f"$course$/top/{name_arr[0]} {name_arr[1]}"))
         category.appendChild(text)
         cat_question.appendChild(category)
         quiz_elem.appendChild(cat_question)

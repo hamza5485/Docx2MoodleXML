@@ -1,7 +1,7 @@
 <quiz>
 	<question type="category">
 		<category>
-			<text>$course$/top/Template</text>
+			<text>$course$/top/Template 01</text>
 		</category>
 	</question>
 	<question type="multichoice">
